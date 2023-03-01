@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+a,
+p,
+button {
+  font-size: 14px;
+}
+
+.img-carousel {
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 360px) {
+  #img-happy-girl {
+    width: 95%;
+  }
+
+  #why-us,
+  #faq {
+    text-align: center;
+  }
+
+  .card-why-us {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bag-star-test {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .accordion-body {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bag-sewa-mobil {
+    width: 43%;
+  }
+
+  .p-sewa-mobil-1 {
+    width: 80%;
+  }
+
+  .p-sewa-mobil-2 {
+    width: 70%;
+  }
+
+  .h3-why-us,
+  .p-why-us,
+  .h4-faq,
+  .p-faq,
+  .bag-star-test {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .offcanvas-body {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .bag-sewa-mobil {
+    width: 43%;
+  }
+
+  .p-sewa-mobil-2 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .p-sewa-mobil-2 {
+    width: 40%;
+  }
+}
